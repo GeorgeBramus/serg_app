@@ -1,0 +1,9 @@
+I"§(function() {
+  border(function(object) {
+    var border_color;
+    border_color = object.css('border-color');
+    return alert('border_color');
+  });
+
+}).call(this);
+:ET

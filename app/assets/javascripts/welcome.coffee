@@ -7,7 +7,4 @@ $ document
 
     $ '.block-example'
       .click ->
-        $ this
-          .css
-            'border': '2px solid green',
-            'color': 'red'
+        alert 'Проверка'
