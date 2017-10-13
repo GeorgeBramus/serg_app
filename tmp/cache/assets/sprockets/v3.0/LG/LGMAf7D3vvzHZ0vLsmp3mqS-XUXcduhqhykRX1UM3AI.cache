@@ -1,0 +1,9 @@
+I"�(function() {
+  $(document).ready(function() {
+    return $('.block-example').click(function() {
+      return alert('Проверка');
+    });
+  });
+
+}).call(this);
+:ET

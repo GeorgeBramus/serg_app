@@ -1,0 +1,12 @@
+I"à(function() {
+  $(document).ready(function() {
+    return $('.block-example').click(function() {
+      return $(this).css({
+        'border': '2px solid green',
+        'color': 'red'
+      });
+    });
+  });
+
+}).call(this);
+:ET
