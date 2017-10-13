@@ -1,0 +1,10 @@
+I"­(function() {
+  $(document).ready(function() {
+    return $('.block-two').css({
+      'border': '2px solid red',
+      'border-radius': '10px'
+    });
+  });
+
+}).call(this);
+:ET
